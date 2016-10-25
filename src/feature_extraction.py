@@ -19,7 +19,7 @@ test_data['review_length'] = test_data.review.apply(len)
 # print ('Positive sentiments:\n',train_data[train_data.sentiment == 1].describe())
 
 
-# Word Extraction
+# Word Extraction - BoW Model
 from sklearn.feature_extraction.text import CountVectorizer
 
 # count for the stop words
