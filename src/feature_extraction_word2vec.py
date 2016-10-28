@@ -26,13 +26,13 @@ def review_to_words(raw_review):
 # print (clean_review)
 
 # Clean complete data
-num_reviews = train_data['review'].size
-clean_train_reviews = []
-
-# print (num_reviews)
-for i in range(0,num_reviews):
-    print (i+1)
-    clean_train_reviews.append(review_to_words(train_data['review'][i]))
-
-with open('../save/clean_train_reviews.pickle','wb') as f:
-    pickle.dump(clean_train_reviews, f)
+# num_reviews = train_data['revi  ew'].size
+# clean_train_reviews = []
+#
+# # print (num_reviews)
+# for i in range(0,num_reviews):
+#     print (i+1)
+#     clean_train_reviews.append(review_to_words(train_data['review'][i]))
+#
+# with open('../save/clean_train_reviews.pickle','wb') as f:
+#     pickle.dump(clean_train_reviews, f)

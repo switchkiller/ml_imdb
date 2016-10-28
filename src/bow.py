@@ -16,7 +16,7 @@ print (train_data_features.shape)
 
 vocab = vectorizer.get_feature_names()
 dist = np.sum(train_data_features, axis = 0)
-# print (vocab)
+print (vocab)
 
 
 # Using Random Forest Classifier
