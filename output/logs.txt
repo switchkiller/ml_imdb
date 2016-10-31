@@ -1,3 +1,4 @@
+[1]
 Python 3.5.2 |Anaconda 4.2.0 (64-bit)| (default, Jul  2 2016, 17:53:06)
 [GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux
 Type "help", "copyright", "credits" or "license" for more information.
@@ -18,4 +19,16 @@ NameError: name 'gensim' is not defined
 [('princess', 0.6889031529426575), ('bride', 0.6265585422515869), ('latifah', 0.6243221759796143), ('mistress', 0.6077708005905151), ('duchess', 0.5990616083145142), ('stepmother', 0.5988945960998535), ('maid', 0.5920279026031494), ('belle', 0.5858449935913086), ('maria', 0.5820341110229492), ('anita', 0.5708249807357788)]
 >>> model.most_similar("awful")
 [('terrible', 0.773060142993927), ('horrible', 0.7212139368057251), ('atrocious', 0.7022581696510315), ('dreadful', 0.6978768706321716), ('abysmal', 0.6864906549453735), ('horrendous', 0.6819785833358765), ('appalling', 0.6631536483764648), ('horrid', 0.6487001776695251), ('lousy', 0.6113804578781128), ('embarrassing', 0.5984994173049927)]
->>>
+
+[2]
+/home/switchkiller/anaconda3/bin/python3.5 /home/switchkiller/Downloads/pycharm-community-2016.2.3/helpers/pydev/pydevd.py --multiproc --qt-support --client 127.0.0.1 --port 41566 --file /home/switchkiller/my_projects/ml_imdb/src/word2vec_clustering.py
+pydev debugger: process 5526 is connecting
+
+Connected to pydev debugger (build 162.1967.10)
+/home/switchkiller/anaconda3/lib/python3.5/site-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Time taken for K Means clustering:  589.6291973590851 seconds.
+
+Process finished with exit code 0
+
+
